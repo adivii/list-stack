@@ -51,7 +51,11 @@ public:
         //anggota 2
     }
     Lingkaran *pop(){
-        //anggota 3
+        if (isEmpty()){
+            cout<<"Data kosong"<<endl;
+        }else {
+        	
+		}
     }
 };
 int main(){

@@ -65,6 +65,7 @@ public:
 	        lingkaran *bantu;
 	        top = bantu;
 	        top = top -> next;
+	        cout << "Data Berhasil Dihapus"
 	        return bantu;
 		}
     }

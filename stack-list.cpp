@@ -46,6 +46,14 @@ public:
     }
     void push(Lingkaran *item){
         //anggota 2
+        item -> next = NULL;
+        if(isEmpty()){
+            top = item;
+        }else{
+            item -> next = top;
+            top = item;
+        }
+        cout << "Stack ditambahkan" << endl;
     }
     void push(double radius){
         //anggota 2
@@ -54,10 +62,16 @@ public:
         if (isEmpty()){
             cout<<"Data kosong"<<endl;
         }else {
-        	
+	        lingkaran *bantu;
+	        top = bantu;
+	        top = top -> next;
+	        return bantu;
 		}
     }
 };
 int main(){
-    
+    ListStack tes;
+
+    tes.push(20);
 }
+

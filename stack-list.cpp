@@ -62,7 +62,10 @@ public:
         if (isEmpty()){
             cout<<"Data kosong"<<endl;
         }else {
-        	
+	        lingkaran *bantu;
+	        top = bantu;
+	        top = top -> next;
+	        return bantu;
 		}
     }
 };
@@ -71,3 +74,4 @@ int main(){
 
     tes.push(20);
 }
+

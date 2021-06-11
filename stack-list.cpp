@@ -63,9 +63,10 @@ public:
             cout<<"Data kosong"<<endl;
         }else {
 	        lingkaran *bantu;
-	        top = bantu;
+	        bantu = new Lingkaran();
+	        bantu= top;
 	        top = top -> next;
-	        cout << "Data Berhasil Dihapus"
+	        cout << "Data Berhasil Dihapus"<< endl;
 	        return bantu;
 		}
     }
